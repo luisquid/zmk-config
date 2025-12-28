@@ -45,11 +45,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                              &kp N6            &kp N7     &kp N8     &kp N9      &kp N0    &kp BACKSPACE
-&kp TAB    &kp Q   &kp W     &kp E     &kp R      &kp T                               &kp Y             &kp U      &kp I      &kp O       &kp P     &kp MINUS
-&kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G                               &kp H             &kp J      &kp K      &kp L       &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &tog 4     &mt ES_N_TILDE N  &kp M      &kp COMMA  &kp DOT     &kp FSLH  &kp RSHFT
-                   &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp RET       &kp SPACE  &mo RAISE         &kp RCTRL  &kp RALT   &kp DELETE
+&kp ESC    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7     &kp N8     &kp N9      &kp N0    &kp BACKSPACE
+&kp TAB    &kp Q   &kp W     &kp E     &kp R      &kp T                               &kp Y      &kp U      &kp I      &kp O       &kp P     &kp MINUS
+&kp LSHFT  &kp A   &kp S     &kp D     &kp F      &kp G                               &kp H      &kp J      &kp K      &kp L       &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &tog 4     &kp N      &kp M      &kp COMMA  &kp DOT     &kp FSLH  &kp RSHFT
+                   &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp RET       &kp SPACE  &mo RAISE  &kp RCTRL  &kp RALT   &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -68,7 +68,7 @@
 
             bindings = <
 &mt GRAVE LS(GRAVE)  &kp F1          &kp F2        &kp F3     &kp F4                &kp F5                                   &kp F6           &kp F7           &kp F8           &kp F9  &kp F10  &kp F11
-&mt PIPE BACKSLASH   &trans          &kp UP_ARROW  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans   &kp F12
+&mt PIPE BACKSLASH   &kp ES_N_TILDE  &kp UP_ARROW  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans   &kp F12
 &mt EQUAL LS(EQUAL)  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans   &trans
 &kp LEFT_GUI         &trans          &trans        &trans     &kp LBRC              &kp RBRC               &trans    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans   &trans
                                      &trans        &trans     &trans                &trans                 &trans    &trans  &trans           &kp KP_NUMBER_0  &trans           &trans

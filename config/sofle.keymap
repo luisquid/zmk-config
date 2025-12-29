@@ -35,7 +35,7 @@
         n_tilde: n_tilde {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp KP_NUMBER_0 &kp KP_N1 &kp KP_N6 &kp KP_N9>;
+            bindings = <&kt RIGHT_ALT &kp KP_NUMBER_0 &kp KP_N1 &kp KP_N6 &kp KP_N9 &kt RIGHT_ALT>;
             label = "N_TILDE";
         };
     };

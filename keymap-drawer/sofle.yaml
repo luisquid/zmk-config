@@ -77,7 +77,7 @@ layers:
   - {t: \, h: '|'}
   - '&n_tilde'
   - UP ARROW
-  - {t: ▽, type: trans}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - {t: (, h: '['}
   - {t: ), h: ']'}
   - KP 7
